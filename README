@@ -1,0 +1,34 @@
+README
+
+--Contents--
+
+gbandslopes.dat/ubandslopes.dat:
+	data files containing the slope of parallactic offset vs. the tangent of the zenith angle at a given redshift
+
+MAFthumbs:
+	folder containing thumbnail images of skymaps from the maf.  Organized by redshift and band, respectively.  
+
+Slopeslider.ipynb:
+	jupyter notebook of the skymaps alongside the slope of parallactic offset v. tangent of zenith angle.  Use the slider to view different redshifts.
+
+deepdrill-g/u-medianbayes.dat:
+	data files containing the median bayes factor for the deep drilling fields in the g and u bands respectively.  NOTE:  In the u-band, values of 1e+292 are used as a placeholder for numbers too big for the slider to handle.  These do not reflect acurately the actual values of the bayes factor in these redshifts.
+
+ecliptic-g-medianbayes.dat:
+	data file containing the median bayes factor for the ecliptic spur region.  NOTE: Unlike the other regions, there is only one data file for this region, as the ecliptic spur is not present in the u-band.
+
+galaxband-g/u-medianbayes.dat:
+	data files containing the median bayes factor for the galactic band region in the g and u bands.
+
+galaxpole-g/u-medianbayes.dat:
+	data files containing the median bayes factor for the galactic pole region in the g and u bands.
+
+main-g/u-medianbayes.dat:
+	data files containing the median bayes factor for the main survey region in the g and u bands.
+
+Medianslider.ipynb:
+	jupyter notebook of the skymaps alongside the median bayes factor in different regions on the sky.  Use the slider to view different redshifts. 
+
+To Run:
+	in terminal: type "jupyter notebook Slopeslider.ipynb" for the slope display version
+		     type "jupyter notebook Medianslider.ipynb" for the median bayes display version
